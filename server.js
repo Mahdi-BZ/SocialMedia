@@ -25,7 +25,7 @@ mongoose
     { useNewUrlParser: true }
   )
   .then(() => console.log("mongoDB connected!"))
-  .catch(error => console.log(error.errmsg));
+  .catch(error => console.log(error));
 
 // Passport middleware
 app.use(passport.initialize());
